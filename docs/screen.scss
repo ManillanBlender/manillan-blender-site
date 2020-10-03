@@ -121,6 +121,11 @@ body {
             align-content: center;
             position: relative;
             overflow: hidden;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
             p {
                 position: absolute;
                 bottom: 0;

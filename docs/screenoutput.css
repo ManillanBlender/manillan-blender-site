@@ -106,6 +106,10 @@ body {
   position: relative;
   overflow: hidden;
 }
+.content-area .gallery .gal-image img {
+  width: 100%;
+  height: auto;
+}
 .content-area .gallery .gal-image p, .content-area .gallery .gal-image .intro {
   position: absolute;
   bottom: 0;
