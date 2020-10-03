@@ -63,10 +63,20 @@ body {
 .content-area{
     background-color: darken($primaryColor, 25);
     text-align: center;
+
     .carole-size {
         margin: auto;
         display: block;
         width: 60%;
+    }
+    @media screen and (max-width: 700px){
+        .carole-size {
+            width: 100%;
+        }
+    }
+
+    .intro {
+        width: 25%;
     }
     h3 {
         box-sizing: border-box;
@@ -77,6 +87,19 @@ body {
         @extend h3;
         padding-bottom: 25px;
         font-size: 125%;
+    }
+
+    .intro {
+        @extend p;
+        margin: auto;
+        text-align: center;
+        width: 70%;
+    }
+
+    @media screen and (max-width: 700px){
+        .intro {
+            width: 100%;
+        }
     }
 
     .blender-email {
