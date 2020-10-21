@@ -134,6 +134,9 @@ body {
     float: none;
     padding: none;
   }
+  .content-area .gallery .gal-image p, .content-area .gallery .gal-image .intro {
+    font-size: 150%;
+  }
 }
 @media screen and (max-width: 700px) {
   .content-area .gallery .gal-image {
